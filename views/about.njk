@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<title>Sobre</title>
+
+{% endblock %}
+
+{% block content %}
+
+<section id="main">
+    <!-- imagem logo -->
+    <img class="logo" src="{{about.avatar}}" alt="Imagem de {{about.name}}" >
+
+    <!-- Nome da empresa -->
+    <h1 class="title">{{about.name}}</h1>
+
+    <!-- Descrição empresa -->
+    <p >{{about.description}}</p>
+</section>
+
+<!-- lista -->
+<ul class="tecnologias opacity">
+    {{about.list}}
+</ul>
+
+<!-- redes sociais -->
+<footer id="footer">
+    <div>
+
+        {% for link in about.links %}
+
+        <a class="{{link.name}}" href="{{link.url}}" target="_blank" >{{link.name}}</a>
+
+        {% endfor %}
+
+    </div>
+</footer>
+
+{% endblock %}
