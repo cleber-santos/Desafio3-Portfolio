@@ -56,7 +56,7 @@ Neste desafio foi criado meu primeiro servidor usando node e adicionado o nunjuc
 ## :gear: Como usar
 ```bash
 # Clone este repositorio
-$ git clone https://github.com/cleber-santos/Desafio3-Portfolio
+$ git clone https://github.com/cleber-santos/Desafio3-Portfolio.git
 
 # Va até o repositorio
 $ cd Desafio3-Portfolio
