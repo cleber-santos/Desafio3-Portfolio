@@ -71,7 +71,7 @@ $ npm start
 
 ## :film_strip: Demonstração
 
-![gif]()
+![gif](https://github.com/cleber-santos/Desafio3-Portfolio/blob/master/public/assets/demo.gif)
 
 ---
 
